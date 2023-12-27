@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #001C30;
+}
+
+:root {
+--background-color : #001C30;
+--main-color : #176B87;
+--font-color : #DAFFFB;
+--base-color : #64CCC5;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid black;
+    z-index: 10;
+}
+.bg-custom-1, .container-fluid {
+    background-color: var(--main-color);
+}
+
+/* Navbar */
