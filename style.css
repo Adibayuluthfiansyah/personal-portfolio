@@ -62,3 +62,10 @@ p {
     box-shadow: 0 1px 2px 1px #111;
     width: auto;
 }
+.skill-bar {
+    background-color: var(--secondary-color);
+    background-color: #212121;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px 1px #111;
+    width: auto;
+}
