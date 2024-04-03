@@ -34,6 +34,9 @@ body {
 p {
     color: var(--secondary-color-2);
 }
+.experience-tab h3 {
+    color: var(--secondary-color);
+}
 .nav-item a {
     color: var(--primary-color-2);
 }
