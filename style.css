@@ -48,14 +48,27 @@ p {
 }
 
 
-
+.body {
+    scroll-behavior: smooth;
+}
 
 /* Navbar */
 .navbar {
-    background-color: var(--secondary-color-2);
-    border-bottom: 1px solid black;
     z-index: 10;
+    box-shadow: 0 4px 6px -6px var(--secondary-color);
+    
 }
+.navbar a {
+        color: var(--secondary-color);
+        text-decoration: none;
+        text-decoration-color: var(--primary-color);
+}
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: var(--secondary-color);
+    }
+
 
 /* home */
 .garis-card {
