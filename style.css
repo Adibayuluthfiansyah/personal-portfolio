@@ -37,6 +37,9 @@ p {
 .experience-tab h3 {
     color: var(--secondary-color);
 }
+.contact-tab h3{
+    color: var(--secondary-color);
+}
 .nav-item a {
     color: var(--primary-color-2);
 }
